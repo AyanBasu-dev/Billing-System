@@ -1,0 +1,9 @@
+.category-img {
+  max-width: 60px;    /* max width to keep image small */
+  max-height: 60px;   /* max height */
+  width: auto;        /* keep aspect ratio */
+  height: auto;       /* keep aspect ratio */
+  object-fit: contain; /* scale image to fit inside box */
+  border-radius: 4px; /* optional, to look nice */
+  display: block;     /* remove inline behavior */
+}
